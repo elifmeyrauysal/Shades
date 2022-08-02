@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF365C632899A98A00A4AFAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF365C622899A98A00A4AFAF /* AppDelegate.swift */; };
+		EF365C652899A98A00A4AFAF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF365C642899A98A00A4AFAF /* SceneDelegate.swift */; };
+		EF365C672899A98A00A4AFAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF365C662899A98A00A4AFAF /* ViewController.swift */; };
+		EF365C6A2899A98A00A4AFAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF365C682899A98A00A4AFAF /* Main.storyboard */; };
+		EF365C6D2899A98A00A4AFAF /* Shade.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF365C6B2899A98A00A4AFAF /* Shade.xcdatamodeld */; };
+		EF365C6F2899A99000A4AFAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF365C6E2899A99000A4AFAF /* Assets.xcassets */; };
+		EF365C722899A99000A4AFAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF365C702899A99000A4AFAF /* LaunchScreen.storyboard */; };
+		EF365C7D2899A99100A4AFAF /* ShadeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF365C7C2899A99100A4AFAF /* ShadeTests.swift */; };
+		EF365C882899A99100A4AFAF /* ShadeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF365C872899A99100A4AFAF /* ShadeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF365C792899A99100A4AFAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF365C572899A98A00A4AFAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF365C5E2899A98A00A4AFAF;
+			remoteInfo = Shade;
+		};
+		EF365C842899A99100A4AFAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF365C572899A98A00A4AFAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF365C5E2899A98A00A4AFAF;
+			remoteInfo = Shade;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF365C5F2899A98A00A4AFAF /* Shade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shade.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF365C622899A98A00A4AFAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF365C642899A98A00A4AFAF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EF365C662899A98A00A4AFAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF365C692899A98A00A4AFAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF365C6C2899A98A00A4AFAF /* Shade.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shade.xcdatamodel; sourceTree = "<group>"; };
+		EF365C6E2899A99000A4AFAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF365C712899A99000A4AFAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF365C732899A99000A4AFAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF365C782899A99100A4AFAF /* ShadeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShadeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF365C7C2899A99100A4AFAF /* ShadeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadeTests.swift; sourceTree = "<group>"; };
+		EF365C7E2899A99100A4AFAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF365C832899A99100A4AFAF /* ShadeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShadeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF365C872899A99100A4AFAF /* ShadeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadeUITests.swift; sourceTree = "<group>"; };
+		EF365C892899A99100A4AFAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF365C5C2899A98A00A4AFAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF365C752899A99100A4AFAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF365C802899A99100A4AFAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF365C562899A98A00A4AFAF = {
+			isa = PBXGroup;
+			children = (
+				EF365C612899A98A00A4AFAF /* Shade */,
+				EF365C7B2899A99100A4AFAF /* ShadeTests */,
+				EF365C862899A99100A4AFAF /* ShadeUITests */,
+				EF365C602899A98A00A4AFAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF365C602899A98A00A4AFAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF365C5F2899A98A00A4AFAF /* Shade.app */,
+				EF365C782899A99100A4AFAF /* ShadeTests.xctest */,
+				EF365C832899A99100A4AFAF /* ShadeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF365C612899A98A00A4AFAF /* Shade */ = {
+			isa = PBXGroup;
+			children = (
+				EF365C622899A98A00A4AFAF /* AppDelegate.swift */,
+				EF365C642899A98A00A4AFAF /* SceneDelegate.swift */,
+				EF365C662899A98A00A4AFAF /* ViewController.swift */,
+				EF365C682899A98A00A4AFAF /* Main.storyboard */,
+				EF365C6E2899A99000A4AFAF /* Assets.xcassets */,
+				EF365C702899A99000A4AFAF /* LaunchScreen.storyboard */,
+				EF365C732899A99000A4AFAF /* Info.plist */,
+				EF365C6B2899A98A00A4AFAF /* Shade.xcdatamodeld */,
+			);
+			path = Shade;
+			sourceTree = "<group>";
+		};
+		EF365C7B2899A99100A4AFAF /* ShadeTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF365C7C2899A99100A4AFAF /* ShadeTests.swift */,
+				EF365C7E2899A99100A4AFAF /* Info.plist */,
+			);
+			path = ShadeTests;
+			sourceTree = "<group>";
+		};
+		EF365C862899A99100A4AFAF /* ShadeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF365C872899A99100A4AFAF /* ShadeUITests.swift */,
+				EF365C892899A99100A4AFAF /* Info.plist */,
+			);
+			path = ShadeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF365C5E2899A98A00A4AFAF /* Shade */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF365C8C2899A99100A4AFAF /* Build configuration list for PBXNativeTarget "Shade" */;
+			buildPhases = (
+				EF365C5B2899A98A00A4AFAF /* Sources */,
+				EF365C5C2899A98A00A4AFAF /* Frameworks */,
+				EF365C5D2899A98A00A4AFAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shade;
+			productName = Shade;
+			productReference = EF365C5F2899A98A00A4AFAF /* Shade.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF365C772899A99100A4AFAF /* ShadeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF365C8F2899A99100A4AFAF /* Build configuration list for PBXNativeTarget "ShadeTests" */;
+			buildPhases = (
+				EF365C742899A99100A4AFAF /* Sources */,
+				EF365C752899A99100A4AFAF /* Frameworks */,
+				EF365C762899A99100A4AFAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF365C7A2899A99100A4AFAF /* PBXTargetDependency */,
+			);
+			name = ShadeTests;
+			productName = ShadeTests;
+			productReference = EF365C782899A99100A4AFAF /* ShadeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF365C822899A99100A4AFAF /* ShadeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF365C922899A99100A4AFAF /* Build configuration list for PBXNativeTarget "ShadeUITests" */;
+			buildPhases = (
+				EF365C7F2899A99100A4AFAF /* Sources */,
+				EF365C802899A99100A4AFAF /* Frameworks */,
+				EF365C812899A99100A4AFAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF365C852899A99100A4AFAF /* PBXTargetDependency */,
+			);
+			name = ShadeUITests;
+			productName = ShadeUITests;
+			productReference = EF365C832899A99100A4AFAF /* ShadeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF365C572899A98A00A4AFAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					EF365C5E2899A98A00A4AFAF = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					EF365C772899A99100A4AFAF = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = EF365C5E2899A98A00A4AFAF;
+					};
+					EF365C822899A99100A4AFAF = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = EF365C5E2899A98A00A4AFAF;
+					};
+				};
+			};
+			buildConfigurationList = EF365C5A2899A98A00A4AFAF /* Build configuration list for PBXProject "Shade" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF365C562899A98A00A4AFAF;
+			productRefGroup = EF365C602899A98A00A4AFAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF365C5E2899A98A00A4AFAF /* Shade */,
+				EF365C772899A99100A4AFAF /* ShadeTests */,
+				EF365C822899A99100A4AFAF /* ShadeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF365C5D2899A98A00A4AFAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF365C722899A99000A4AFAF /* LaunchScreen.storyboard in Resources */,
+				EF365C6F2899A99000A4AFAF /* Assets.xcassets in Resources */,
+				EF365C6A2899A98A00A4AFAF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF365C762899A99100A4AFAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF365C812899A99100A4AFAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF365C5B2899A98A00A4AFAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF365C672899A98A00A4AFAF /* ViewController.swift in Sources */,
+				EF365C632899A98A00A4AFAF /* AppDelegate.swift in Sources */,
+				EF365C652899A98A00A4AFAF /* SceneDelegate.swift in Sources */,
+				EF365C6D2899A98A00A4AFAF /* Shade.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF365C742899A99100A4AFAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF365C7D2899A99100A4AFAF /* ShadeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF365C7F2899A99100A4AFAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF365C882899A99100A4AFAF /* ShadeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF365C7A2899A99100A4AFAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF365C5E2899A98A00A4AFAF /* Shade */;
+			targetProxy = EF365C792899A99100A4AFAF /* PBXContainerItemProxy */;
+		};
+		EF365C852899A99100A4AFAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF365C5E2899A98A00A4AFAF /* Shade */;
+			targetProxy = EF365C842899A99100A4AFAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF365C682899A98A00A4AFAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF365C692899A98A00A4AFAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF365C702899A99000A4AFAF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF365C712899A99000A4AFAF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF365C8A2899A99100A4AFAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF365C8B2899A99100A4AFAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF365C8D2899A99100A4AFAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Shade/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.Shade;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF365C8E2899A99100A4AFAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Shade/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.Shade;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EF365C902899A99100A4AFAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShadeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.ShadeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shade.app/Shade";
+			};
+			name = Debug;
+		};
+		EF365C912899A99100A4AFAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShadeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.ShadeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shade.app/Shade";
+			};
+			name = Release;
+		};
+		EF365C932899A99100A4AFAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShadeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.ShadeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Shade;
+			};
+			name = Debug;
+		};
+		EF365C942899A99100A4AFAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShadeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.ShadeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Shade;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF365C5A2899A98A00A4AFAF /* Build configuration list for PBXProject "Shade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF365C8A2899A99100A4AFAF /* Debug */,
+				EF365C8B2899A99100A4AFAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF365C8C2899A99100A4AFAF /* Build configuration list for PBXNativeTarget "Shade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF365C8D2899A99100A4AFAF /* Debug */,
+				EF365C8E2899A99100A4AFAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF365C8F2899A99100A4AFAF /* Build configuration list for PBXNativeTarget "ShadeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF365C902899A99100A4AFAF /* Debug */,
+				EF365C912899A99100A4AFAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF365C922899A99100A4AFAF /* Build configuration list for PBXNativeTarget "ShadeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF365C932899A99100A4AFAF /* Debug */,
+				EF365C942899A99100A4AFAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EF365C6B2899A98A00A4AFAF /* Shade.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EF365C6C2899A98A00A4AFAF /* Shade.xcdatamodel */,
+			);
+			currentVersion = EF365C6C2899A98A00A4AFAF /* Shade.xcdatamodel */;
+			path = Shade.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EF365C572899A98A00A4AFAF /* Project object */;
+}
