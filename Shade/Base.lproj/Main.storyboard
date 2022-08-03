@@ -380,6 +380,9 @@
                                     <color key="baseForegroundColor" systemColor="systemGray5Color"/>
                                     <color key="baseBackgroundColor" red="0.20550596709999999" green="0.46676582100000003" blue="0.29042714829999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="aP1-gl-QGC" kind="show" id="V0I-Ob-JyF"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="huD-Ya-54m"/>
@@ -396,22 +399,26 @@
             <objects>
                 <viewController id="aP1-gl-QGC" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fcN-6u-X0K">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vqY-15-l1F">
-                                <rect key="frame" x="83" y="831" width="248" height="31"/>
+                                <rect key="frame" x="83" y="777" width="248" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="I'm ready to move to the next step.">
                                     <color key="baseForegroundColor" systemColor="systemGray5Color"/>
                                     <color key="baseBackgroundColor" red="0.20550596709999999" green="0.46676582100000003" blue="0.29042714829999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="5rf-3Z-k9T" kind="show" id="ZA5-Fh-xRf"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="fHM-WC-DZ0"/>
                         <color key="backgroundColor" red="0.39427858589999998" green="0.65107232329999998" blue="0.4864592552" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="q7j-2x-aOE"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eRZ-J4-Q0u" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -422,22 +429,26 @@
             <objects>
                 <viewController id="5rf-3Z-k9T" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kah-eC-m6S">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xff-60-jPL">
-                                <rect key="frame" x="83" y="831" width="248" height="31"/>
+                                <rect key="frame" x="83" y="777" width="248" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="I'm ready to move to the next step.">
                                     <color key="baseForegroundColor" systemColor="systemGray5Color"/>
                                     <color key="baseBackgroundColor" red="0.20550596709999999" green="0.46676582100000003" blue="0.29042714829999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="5Sw-AB-ZPw" kind="show" id="BHR-br-2aG"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ydr-Qh-dCX"/>
                         <color key="backgroundColor" red="0.53194159269999997" green="0.75302904839999996" blue="0.60408174989999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="f8h-5P-X47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qR3-pY-ipf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -448,22 +459,26 @@
             <objects>
                 <viewController id="5Sw-AB-ZPw" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="N6U-qc-2uP">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="37k-ns-cp8">
-                                <rect key="frame" x="83" y="831" width="248" height="31"/>
+                                <rect key="frame" x="83" y="777" width="248" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="I'm ready to move to the next step.">
                                     <color key="baseForegroundColor" systemColor="systemGray5Color"/>
                                     <color key="baseBackgroundColor" red="0.20550596709999999" green="0.46676582100000003" blue="0.29042714829999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="QV9-0S-VBe" kind="show" id="ZIb-Oi-zQ2"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="mSJ-Tr-S3O"/>
                         <color key="backgroundColor" red="0.7597983479" green="0.91386336089999998" blue="0.74530130620000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="gMC-dT-NRv"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wMt-Yb-jlN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -474,11 +489,11 @@
             <objects>
                 <viewController id="QV9-0S-VBe" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="E0l-xO-Hvb">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3YN-Al-fmT">
-                                <rect key="frame" x="83" y="831" width="248" height="31"/>
+                                <rect key="frame" x="83" y="777" width="248" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="I'm ready to move to the next step.">
@@ -490,6 +505,7 @@
                         <viewLayoutGuide key="safeArea" id="ASi-x1-rNL"/>
                         <color key="backgroundColor" red="0.79154187440000001" green="0.90593081710000001" blue="0.82752728460000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="5zj-OH-X1m"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0J3-GK-MEx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
