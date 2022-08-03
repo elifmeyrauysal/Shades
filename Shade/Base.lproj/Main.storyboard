@@ -5,6 +5,7 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -108,6 +109,17 @@
                     <view key="view" contentMode="scaleToFill" id="vZH-WU-NGV">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mrM-A7-aKk">
+                                <rect key="frame" x="83" y="777" width="248" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="I'm ready to move to the next step.">
+                                    <color key="baseForegroundColor" systemColor="systemGray5Color"/>
+                                    <color key="baseBackgroundColor" red="0.11939347931676711" green="0.28657592371821222" blue="0.4648564409828283" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="kci-4e-LsE"/>
                         <color key="backgroundColor" red="0.13747841120000001" green="0.32110774520000002" blue="0.51743298770000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -124,6 +136,17 @@
                     <view key="view" contentMode="scaleToFill" id="Jge-FW-qqG">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qlA-ln-QiT">
+                                <rect key="frame" x="83" y="831" width="248" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="I'm ready to move to the next step.">
+                                    <color key="baseForegroundColor" systemColor="systemGray5Color"/>
+                                    <color key="baseBackgroundColor" red="0.13747841120000001" green="0.32110774520000002" blue="0.51743298770000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="dGc-8A-HNn"/>
                         <color key="backgroundColor" red="0.19588437680000001" green="0.4426630735" blue="0.6468192935" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -139,6 +162,17 @@
                     <view key="view" contentMode="scaleToFill" id="Mp7-UM-jKt">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eqV-99-wN1">
+                                <rect key="frame" x="83" y="831" width="248" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="I'm ready to move to the next step.">
+                                    <color key="baseForegroundColor" systemColor="systemGray5Color"/>
+                                    <color key="baseBackgroundColor" red="0.13747841120000001" green="0.32110774520000002" blue="0.51743298770000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="XUl-Nb-uNu"/>
                         <color key="backgroundColor" red="0.25423336029999999" green="0.57988494629999998" blue="0.79580909010000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -154,6 +188,17 @@
                     <view key="view" contentMode="scaleToFill" id="vdI-DO-v3S">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EhW-G5-bxA">
+                                <rect key="frame" x="83" y="831" width="248" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="I'm ready to move to the next step.">
+                                    <color key="baseForegroundColor" systemColor="systemGray5Color"/>
+                                    <color key="baseBackgroundColor" red="0.13747841120000001" green="0.32110774520000002" blue="0.51743298770000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Nck-0P-6Jc"/>
                         <color key="backgroundColor" red="0.42251050470000001" green="0.74080413580000004" blue="0.88997542860000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -169,6 +214,17 @@
                     <view key="view" contentMode="scaleToFill" id="pHv-Q4-x9w">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7DW-6B-zea">
+                                <rect key="frame" x="83" y="831" width="248" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="I'm ready to move to the next step.">
+                                    <color key="baseForegroundColor" systemColor="systemGray5Color"/>
+                                    <color key="baseBackgroundColor" red="0.13747841120000001" green="0.32110774520000002" blue="0.51743298770000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="R8K-wX-TNE"/>
                         <color key="backgroundColor" red="0.72108584639999995" green="0.88608747720000003" blue="0.95674115420000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -184,6 +240,17 @@
                     <view key="view" contentMode="scaleToFill" id="Zpp-RR-yJE">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VSW-u6-rGb">
+                                <rect key="frame" x="83" y="777" width="248" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="I'm ready to move to the next step.">
+                                    <color key="baseForegroundColor" systemColor="systemGray5Color"/>
+                                    <color key="baseBackgroundColor" red="0.46179430544331845" green="0.28111410804837683" blue="0.57745734364949497" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="La9-Tv-gVl"/>
                         <color key="backgroundColor" red="0.56200647349999999" green="0.34049093720000001" blue="0.69383597370000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -200,6 +267,17 @@
                     <view key="view" contentMode="scaleToFill" id="LTG-KY-G9b">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SiR-Fi-aCX">
+                                <rect key="frame" x="83" y="831" width="248" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="I'm ready to move to the next step.">
+                                    <color key="baseForegroundColor" systemColor="systemGray5Color"/>
+                                    <color key="baseBackgroundColor" red="0.56200647349999999" green="0.34049093720000001" blue="0.69383597370000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6g9-ui-rHd"/>
                         <color key="backgroundColor" red="0.69527560470000005" green="0.50143182279999998" blue="0.8232489824" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -215,6 +293,17 @@
                     <view key="view" contentMode="scaleToFill" id="v0S-bn-KfJ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="08H-z5-diu">
+                                <rect key="frame" x="83" y="831" width="248" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="I'm ready to move to the next step.">
+                                    <color key="baseForegroundColor" systemColor="systemGray5Color"/>
+                                    <color key="baseBackgroundColor" red="0.56200647349999999" green="0.34049093720000001" blue="0.69383597370000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="RBf-vK-7w4"/>
                         <color key="backgroundColor" red="0.81640183929999999" green="0.70171922450000002" blue="0.88609307999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -230,6 +319,17 @@
                     <view key="view" contentMode="scaleToFill" id="I0I-cN-Koz">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gMQ-FS-MGg">
+                                <rect key="frame" x="83" y="831" width="248" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="I'm ready to move to the next step.">
+                                    <color key="baseForegroundColor" systemColor="systemGray5Color"/>
+                                    <color key="baseBackgroundColor" red="0.56200647349999999" green="0.34049093720000001" blue="0.69383597370000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="dYD-Wp-2zJ"/>
                         <color key="backgroundColor" red="0.88673299549999995" green="0.81163662670000003" blue="0.9214556813" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -245,6 +345,17 @@
                     <view key="view" contentMode="scaleToFill" id="Tc7-lJ-XDD">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aHd-jb-ZmR">
+                                <rect key="frame" x="83" y="831" width="248" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="I'm ready to move to the next step.">
+                                    <color key="baseForegroundColor" systemColor="systemGray5Color"/>
+                                    <color key="baseBackgroundColor" red="0.56200647349999999" green="0.34049093720000001" blue="0.69383597370000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="bow-m7-UqO"/>
                         <color key="backgroundColor" red="0.91399008039999996" green="0.87443161010000003" blue="0.94110423330000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
