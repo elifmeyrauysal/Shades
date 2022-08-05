@@ -18,14 +18,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SHADES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4du-ln-HYt">
-                                <rect key="frame" x="140" y="122" width="134" height="37"/>
+                                <rect key="frame" x="128" y="88" width="158" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="33"/>
+                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="39"/>
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q4D-2k-UAD">
-                                <rect key="frame" x="59" y="237" width="297" height="110"/>
+                                <rect key="frame" x="59" y="202" width="297" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="">
@@ -37,7 +37,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gXn-T8-0cf">
-                                <rect key="frame" x="59" y="428" width="297" height="110"/>
+                                <rect key="frame" x="59" y="378" width="297" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="">
@@ -49,7 +49,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ogv-vE-qPB">
-                                <rect key="frame" x="59" y="610" width="297" height="110"/>
+                                <rect key="frame" x="59" y="560" width="297" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="">
@@ -61,7 +61,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5UO-rf-vka">
-                                <rect key="frame" x="59" y="535" width="297" height="36"/>
+                                <rect key="frame" x="59" y="485" width="297" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="I'm feeling anxious.">
@@ -72,7 +72,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pr2-Ik-1SY">
-                                <rect key="frame" x="59" y="346" width="297" height="36"/>
+                                <rect key="frame" x="59" y="311" width="297" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="I'm feeling depressed.">
@@ -80,7 +80,7 @@
                                 </buttonConfiguration>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bpx-9f-unp">
-                                <rect key="frame" x="59" y="720" width="297" height="36"/>
+                                <rect key="frame" x="59" y="670" width="297" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="I'm feeling frustrated/ agngry.">
@@ -90,6 +90,13 @@
                                     <segue destination="JUR-Ae-7mg" kind="show" id="tMP-H6-fPB"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="a step by step emotional walkthrough" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fRh-Hf-Ft2">
+                                <rect key="frame" x="65" y="129" width="285" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" systemColor="systemGray2Color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="eRK-9Y-brH"/>
                         <color key="backgroundColor" red="0.98823523520000001" green="0.98823523520000001" blue="0.94509804249999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1168,7 +1175,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="QQ1-3p-zXh"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.18767473300000001" green="0.4255201381" blue="0.26904775139999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="Kvs-IS-W5m"/>
                 </viewController>
@@ -1210,7 +1217,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="XwA-je-7Cw"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.17613552239999999" green="0.40295069369999997" blue="0.25555487710000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="R1p-tM-2hN"/>
                 </viewController>
@@ -1620,7 +1627,7 @@
         <segue reference="PAG-LZ-gm2"/>
         <segue reference="iov-gS-rUD"/>
         <segue reference="nTq-g4-GjK"/>
-        <segue reference="ZPi-0s-gqO"/>
+        <segue reference="hmf-Po-r2Q"/>
         <segue reference="uBH-g2-uhw"/>
         <segue reference="lot-sc-xC7"/>
         <segue reference="bZy-3G-uvY"/>
@@ -1641,12 +1648,12 @@
         <segue reference="48i-dV-J7M"/>
         <segue reference="Pm1-Uh-20Q"/>
         <segue reference="KfE-RY-aTg"/>
-        <segue reference="GfL-r4-4QW"/>
+        <segue reference="hJ6-Qr-7ch"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="background" width="564" height="1002"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        <systemColor name="systemGray2Color">
+            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemGray4Color">
             <color red="0.81960784313725488" green="0.81960784313725488" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
