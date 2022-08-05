@@ -16,6 +16,33 @@
                     <view key="view" contentMode="scaleToFill" id="CpI-au-RWc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XRb-Fu-ujp">
+                                <rect key="frame" x="20" y="26" width="75" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="back">
+                                    <color key="baseForegroundColor" systemColor="systemGray4Color"/>
+                                    <color key="baseBackgroundColor" red="0.95753616090000004" green="0.60848289730000005" blue="0.1591314375" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Step 4" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LK1-pe-ZW6">
+                                <rect key="frame" x="0.0" y="65" width="414" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="36"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mlk-zE-kIB">
+                                <rect key="frame" x="63" y="761" width="288" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="I'm ready to move to the next step.">
+                                    <color key="baseForegroundColor" systemColor="systemGray5Color"/>
+                                    <color key="baseBackgroundColor" red="0.95753616090000004" green="0.60848289730000005" blue="0.1591314375" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="kZX-rw-l24"/>
                         <color key="backgroundColor" red="0.94509804249999996" green="0.71764707569999997" blue="0.25098040700000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
@@ -32,6 +59,33 @@
                     <view key="view" contentMode="scaleToFill" id="nMh-ag-E6x">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6z2-fS-2Xt">
+                                <rect key="frame" x="20" y="26" width="75" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="back">
+                                    <color key="baseForegroundColor" systemColor="systemGray4Color"/>
+                                    <color key="baseBackgroundColor" red="0.95753616090000004" green="0.60848289730000005" blue="0.1591314375" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Step 4" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jEv-y5-Ajj">
+                                <rect key="frame" x="0.0" y="65" width="414" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="36"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4vS-CH-K22">
+                                <rect key="frame" x="63" y="761" width="288" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="I'm ready to move to the next step.">
+                                    <color key="baseForegroundColor" systemColor="systemGray5Color"/>
+                                    <color key="baseBackgroundColor" red="0.95753616090000004" green="0.60848289730000005" blue="0.1591314375" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="eU6-bg-Fn5"/>
                         <color key="backgroundColor" red="0.98714512590000003" green="0.77911788169999996" blue="0.027594299740000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -48,6 +102,42 @@
                     <view key="view" contentMode="scaleToFill" id="aH6-9D-mcW">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m9d-p4-IsC">
+                                <rect key="frame" x="20" y="27" width="75" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="back">
+                                    <color key="baseForegroundColor" systemColor="systemGray4Color"/>
+                                    <color key="baseBackgroundColor" red="0.95753616090000004" green="0.60848289730000005" blue="0.1591314375" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C4k-w9-Dtg">
+                                <rect key="frame" x="63" y="761" width="288" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="I'm ready to move to the next step.">
+                                    <color key="baseForegroundColor" systemColor="systemGray5Color"/>
+                                    <color key="baseBackgroundColor" red="0.95753616090000004" green="0.60848289730000005" blue="0.1591314375" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ml9-Ql-mal">
+                                <rect key="frame" x="63" y="124" width="288" height="559"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">This is a simple mindfulness exercise with breathing meditation that doesn't require any tools. Sit upright in a quiet place, keep your eyes open and look straight ahead. While doing this, try to consciously notice your breathing - for example, by counting your inhales and exhales or mentally accompanying your breaths with "in" and "out." Do not evaluate other thoughts that arise, but let them pass in order to return to conscious breathing meditation. Practice for at least eight minutes.
+</string>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="21"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Silent Sitting" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8vz-SZ-Ixw">
+                                <rect key="frame" x="63" y="66" width="288" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="36"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="QYz-y6-e8m"/>
                         <color key="backgroundColor" red="0.97647058959999999" green="0.90196073060000004" blue="0.47450977560000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
@@ -55,7 +145,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XqF-J8-dUp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3675" y="-2205"/>
+            <point key="canvasLocation" x="-3675.36231884058" y="-2205.1339285714284"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="h1W-9p-Jgp">
@@ -64,6 +154,33 @@
                     <view key="view" contentMode="scaleToFill" id="zLh-kh-5f4">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m14-lh-pyf">
+                                <rect key="frame" x="20" y="26" width="75" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="back">
+                                    <color key="baseForegroundColor" systemColor="systemGray4Color"/>
+                                    <color key="baseBackgroundColor" red="0.95753616090000004" green="0.60848289730000005" blue="0.1591314375" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Step 4" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hh7-Gc-GLq">
+                                <rect key="frame" x="0.0" y="65" width="414" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="36"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4az-K1-e3K">
+                                <rect key="frame" x="63" y="761" width="288" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="I'm ready to move to the next step.">
+                                    <color key="baseForegroundColor" systemColor="systemGray5Color"/>
+                                    <color key="baseBackgroundColor" red="0.95753616090000004" green="0.60848289730000005" blue="0.1591314375" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="bK7-Rc-zln"/>
                         <color key="backgroundColor" red="0.96862745289999996" green="0.85882353779999998" blue="0.31372550129999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
@@ -1950,7 +2067,7 @@
         <segue reference="hmf-Po-r2Q"/>
         <segue reference="Lsd-Xt-pSe"/>
         <segue reference="lot-sc-xC7"/>
-        <segue reference="bZy-3G-uvY"/>
+        <segue reference="JNO-pZ-vwx"/>
         <segue reference="UVG-UQ-VRN"/>
         <segue reference="3YJ-bE-OnR"/>
         <segue reference="6S9-A1-QfJ"/>
@@ -1968,7 +2085,7 @@
         <segue reference="48i-dV-J7M"/>
         <segue reference="Pm1-Uh-20Q"/>
         <segue reference="GjX-8S-3W0"/>
-        <segue reference="hJ6-Qr-7ch"/>
+        <segue reference="GfL-r4-4QW"/>
         <segue reference="AC5-LR-reK"/>
         <segue reference="RTb-NZ-x2k"/>
         <segue reference="soQ-BS-GTA"/>
