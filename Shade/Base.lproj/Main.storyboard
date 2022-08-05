@@ -17,30 +17,33 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XRb-Fu-ujp">
-                                <rect key="frame" x="20" y="26" width="75" height="31"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Inward documentation and evaluation of experiences" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LK1-pe-ZW6">
+                                <rect key="frame" x="63" y="65" width="288" height="212"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="36"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vOt-XS-aGw">
+                                <rect key="frame" x="63" y="305" width="288" height="386"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">In this exercise, you mentally take a step back in a situation you have just experienced and analyze your own reaction to the experience. Observe what you are feeling or thinking at that moment, which aspects you are evaluating and what this triggers in you.
+</string>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="22"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TKH-zf-ZjD">
+                                <rect key="frame" x="20" y="20" width="75" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="back">
                                     <color key="baseForegroundColor" systemColor="systemGray4Color"/>
                                     <color key="baseBackgroundColor" red="0.95753616090000004" green="0.60848289730000005" blue="0.1591314375" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Step 4" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LK1-pe-ZW6">
-                                <rect key="frame" x="0.0" y="65" width="414" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="36"/>
-                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mlk-zE-kIB">
-                                <rect key="frame" x="63" y="761" width="288" height="55"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="I'm ready to move to the next step.">
-                                    <color key="baseForegroundColor" systemColor="systemGray5Color"/>
-                                    <color key="baseBackgroundColor" red="0.95753616090000004" green="0.60848289730000005" blue="0.1591314375" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="7U0-Xp-XQS" kind="show" id="Zfj-Bt-cPb"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="kZX-rw-l24"/>
@@ -50,7 +53,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tFQ-Zc-EQA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3675" y="-180"/>
+            <point key="canvasLocation" x="-3675.36231884058" y="-180.13392857142856"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="EvR-hZ-QSq">
@@ -68,23 +71,25 @@
                                     <color key="baseForegroundColor" systemColor="systemGray4Color"/>
                                     <color key="baseBackgroundColor" red="0.95753616090000004" green="0.60848289730000005" blue="0.1591314375" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="7U0-Xp-XQS" kind="show" id="IYQ-9T-mgc"/>
+                                </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Step 4" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jEv-y5-Ajj">
-                                <rect key="frame" x="0.0" y="65" width="414" height="40"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mental photography" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jEv-y5-Ajj">
+                                <rect key="frame" x="60" y="114" width="291" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="36"/>
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4vS-CH-K22">
-                                <rect key="frame" x="63" y="761" width="288" height="55"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JEy-DD-9Xw">
+                                <rect key="frame" x="63" y="241" width="288" height="436"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="I'm ready to move to the next step.">
-                                    <color key="baseForegroundColor" systemColor="systemGray5Color"/>
-                                    <color key="baseBackgroundColor" red="0.95753616090000004" green="0.60848289730000005" blue="0.1591314375" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </buttonConfiguration>
-                            </button>
+                                <string key="text">In this exercise, you mentally take a step back in a situation you have just experienced and analyze your own reaction to the experience. Observe what you are feeling or thinking at that moment, which aspects you are evaluating and what this triggers in you.</string>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="24"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="eU6-bg-Fn5"/>
                         <color key="backgroundColor" red="0.98714512590000003" green="0.77911788169999996" blue="0.027594299740000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -93,7 +98,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="isb-j1-fUb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3675" y="-853"/>
+            <point key="canvasLocation" x="-3675.36231884058" y="-853.125"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="jEw-7R-iQ9">
@@ -103,40 +108,34 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m9d-p4-IsC">
-                                <rect key="frame" x="20" y="27" width="75" height="31"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Silent Sitting" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8vz-SZ-Ixw">
+                                <rect key="frame" x="63" y="86" width="288" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="36"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ml9-Ql-mal">
+                                <rect key="frame" x="63" y="127" width="288" height="681"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">This is a simple mindfulness exercise with breathing meditation that doesn't require any tools. Sit upright in a quiet place, keep your eyes open and look straight ahead. While doing this, try to consciously notice your breathing - for example, by counting your inhales and exhales or mentally accompanying your breaths with "in" and "out." Do not evaluate other thoughts that arise, but let them pass in order to return to conscious breathing meditation. Practice for at least eight minutes.
+</string>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="22"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FZd-J5-nrV">
+                                <rect key="frame" x="20" y="20" width="75" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="back">
                                     <color key="baseForegroundColor" systemColor="systemGray4Color"/>
                                     <color key="baseBackgroundColor" red="0.95753616090000004" green="0.60848289730000005" blue="0.1591314375" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="7U0-Xp-XQS" kind="show" id="0VL-8a-uVH"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C4k-w9-Dtg">
-                                <rect key="frame" x="63" y="761" width="288" height="55"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="I'm ready to move to the next step.">
-                                    <color key="baseForegroundColor" systemColor="systemGray5Color"/>
-                                    <color key="baseBackgroundColor" red="0.95753616090000004" green="0.60848289730000005" blue="0.1591314375" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </buttonConfiguration>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ml9-Ql-mal">
-                                <rect key="frame" x="63" y="124" width="288" height="559"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">This is a simple mindfulness exercise with breathing meditation that doesn't require any tools. Sit upright in a quiet place, keep your eyes open and look straight ahead. While doing this, try to consciously notice your breathing - for example, by counting your inhales and exhales or mentally accompanying your breaths with "in" and "out." Do not evaluate other thoughts that arise, but let them pass in order to return to conscious breathing meditation. Practice for at least eight minutes.
-</string>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="21"/>
-                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Silent Sitting" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8vz-SZ-Ixw">
-                                <rect key="frame" x="63" y="66" width="288" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="36"/>
-                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="QYz-y6-e8m"/>
                         <color key="backgroundColor" red="0.97647058959999999" green="0.90196073060000004" blue="0.47450977560000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -163,23 +162,27 @@
                                     <color key="baseForegroundColor" systemColor="systemGray4Color"/>
                                     <color key="baseBackgroundColor" red="0.95753616090000004" green="0.60848289730000005" blue="0.1591314375" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="7U0-Xp-XQS" kind="show" id="Z9s-8k-mlU"/>
+                                </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Step 4" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hh7-Gc-GLq">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Walking meditation" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hh7-Gc-GLq">
                                 <rect key="frame" x="0.0" y="65" width="414" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="36"/>
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4az-K1-e3K">
-                                <rect key="frame" x="63" y="761" width="288" height="55"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A9O-G8-edB">
+                                <rect key="frame" x="63" y="113" width="300" height="718"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="I'm ready to move to the next step.">
-                                    <color key="baseForegroundColor" systemColor="systemGray5Color"/>
-                                    <color key="baseBackgroundColor" red="0.95753616090000004" green="0.60848289730000005" blue="0.1591314375" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </buttonConfiguration>
-                            </button>
+                                <mutableString key="text">Without distraction by telephone or conversation, walk very slowly and consciously - becoming aware of the walking movement. Feel the feet touching down and rolling. The hands can be relaxed below the rib cage on the body or on the back. Tilt the head slightly.
+Perceiving and describing objects: Describe an object - such as stones, nuts, feathers or a raisin - in your mind. Allow yourself enough time and also name small details or things you take for granted about the object. Then touch the object with closed eyes, becoming aware of how it feels and smells.
+</mutableString>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="21"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="bK7-Rc-zln"/>
                         <color key="backgroundColor" red="0.96862745289999996" green="0.85882353779999998" blue="0.31372550129999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -188,7 +191,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hsP-Cn-lkQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3675" y="-1526"/>
+            <point key="canvasLocation" x="-3675.36231884058" y="-1526.1160714285713"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="LSh-Bh-7k3">
@@ -290,8 +293,20 @@
                                     <segue destination="wUg-Vs-9Xs" kind="show" id="MKx-Dx-9hY"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NIf-9b-Bp2">
+                                <rect key="frame" x="20" y="20" width="75" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="back">
+                                    <color key="baseForegroundColor" systemColor="systemGray4Color"/>
+                                    <color key="baseBackgroundColor" red="0.95753616090000004" green="0.60848289730000005" blue="0.1591314375" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="eU2-cs-xIb" kind="show" id="pvj-o6-i94"/>
+                                </connections>
+                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mindfullness" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NEd-0m-zxJ">
-                                <rect key="frame" x="59" y="44" width="336" height="40"/>
+                                <rect key="frame" x="59" y="59" width="336" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="40"/>
                                 <color key="textColor" red="0.2257671487" green="0.2257671487" blue="0.2257671487" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -316,28 +331,28 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mindfullness" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RVl-UH-N3r">
-                                <rect key="frame" x="39" y="44" width="336" height="40"/>
+                                <rect key="frame" x="39" y="79" width="336" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="40"/>
                                 <color key="textColor" red="0.22576714868615999" green="0.22576714868615999" blue="0.22576714868615999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mindfulness means doing one thing wholly and consciously. People who practice this attitude live healthier lives. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qwr-Bu-4yH">
-                                <rect key="frame" x="39" y="100" width="326" height="124"/>
+                                <rect key="frame" x="39" y="135" width="326" height="124"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="23"/>
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Incorporate mindfulness exercises into everyday life" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MYI-gW-mYm">
-                                <rect key="frame" x="39" y="302" width="336" height="82"/>
+                                <rect key="frame" x="39" y="337" width="336" height="82"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="27"/>
                                 <color key="textColor" red="0.2257671487" green="0.2257671487" blue="0.2257671487" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B0E-dX-ZJB">
-                                <rect key="frame" x="39" y="372" width="336" height="216"/>
+                                <rect key="frame" x="39" y="407" width="336" height="216"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Mindfulness exercises can be used to train self-awareness and reduce stress. In this context, mindfulness is understood as the willingness to accept what is, without evaluating or avoiding feelings and thoughts.</string>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="23"/>
@@ -345,7 +360,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SPQ-Yg-OvP">
-                                <rect key="frame" x="39" y="232" width="326" height="33"/>
+                                <rect key="frame" x="39" y="267" width="326" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="I want to hear more about mindfullness">
@@ -357,14 +372,14 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Simple mindfulness exercises to practice" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Z1-GF-VUO">
-                                <rect key="frame" x="39" y="614" width="336" height="82"/>
+                                <rect key="frame" x="39" y="649" width="336" height="82"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="25"/>
                                 <color key="textColor" red="0.2257671487" green="0.2257671487" blue="0.2257671487" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WZo-XY-1bD">
-                                <rect key="frame" x="39" y="704" width="336" height="57"/>
+                                <rect key="frame" x="39" y="739" width="336" height="57"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="These simple mindfulness exercises are easy to integrate into everyday life.">
@@ -374,6 +389,18 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="7U0-Xp-XQS" kind="show" id="fmJ-5h-Mml"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6b8-P2-cS0">
+                                <rect key="frame" x="20" y="20" width="75" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="back">
+                                    <color key="baseForegroundColor" systemColor="systemGray4Color"/>
+                                    <color key="baseBackgroundColor" red="0.95753616090000004" green="0.60848289730000005" blue="0.1591314375" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="BQB-j5-6I9" kind="show" id="2np-1v-3hM"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -395,14 +422,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mindfullness" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yE5-RU-JDx">
-                                <rect key="frame" x="43" y="42" width="318" height="40"/>
+                                <rect key="frame" x="56" y="82" width="318" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="40"/>
                                 <color key="textColor" red="0.2257671487" green="0.2257671487" blue="0.2257671487" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b6J-TN-aco">
-                                <rect key="frame" x="43" y="486" width="318" height="282"/>
+                                <rect key="frame" x="56" y="526" width="318" height="282"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Researchers at the Max Planck Institute for Cognitive Research in Leipzig, Germany were able to prove this using hair analyses, because stress hormones are accumulated in the hair: Mindfulness lowers stress levels by 25 percent in the long term when practiced daily.</string>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="23"/>
@@ -410,20 +437,32 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="After just two months of mindfulness training, positive effects on depression, anxiety and the immune system can be measured." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9SY-QB-xSi">
-                                <rect key="frame" x="43" y="318" width="318" height="145"/>
+                                <rect key="frame" x="56" y="358" width="318" height="145"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="23"/>
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="elx-CA-99a">
-                                <rect key="frame" x="43" y="101" width="318" height="209"/>
+                                <rect key="frame" x="56" y="141" width="318" height="209"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Mindfulness lowers stress levels by 25 percent in the long term. This is shown by hair analyses. Simple mindfulness exercises also have positive effects on depression, anxiety and the immune system.</string>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="23"/>
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QJo-b5-BC3">
+                                <rect key="frame" x="41" y="19" width="75" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="back">
+                                    <color key="baseForegroundColor" systemColor="systemGray4Color"/>
+                                    <color key="baseBackgroundColor" red="0.95753616090000004" green="0.60848289730000005" blue="0.1591314375" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="eU2-cs-xIb" kind="show" id="oRt-g1-usO"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ofF-yg-2VM"/>
                         <color key="backgroundColor" red="0.98823523520000001" green="0.94509804249999996" blue="0.61960786580000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -442,15 +481,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SHADES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4du-ln-HYt">
-                                <rect key="frame" x="59" y="44" width="227" height="43"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="39"/>
-                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q4D-2k-UAD">
-                                <rect key="frame" x="59" y="158" width="297" height="110"/>
+                                <rect key="frame" x="58" y="313" width="297" height="109"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="">
@@ -462,7 +494,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gXn-T8-0cf">
-                                <rect key="frame" x="59" y="334" width="297" height="110"/>
+                                <rect key="frame" x="58" y="494" width="297" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="">
@@ -474,7 +506,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ogv-vE-qPB">
-                                <rect key="frame" x="59" y="516" width="297" height="110"/>
+                                <rect key="frame" x="58" y="662" width="297" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="">
@@ -486,7 +518,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5UO-rf-vka">
-                                <rect key="frame" x="59" y="441" width="297" height="36"/>
+                                <rect key="frame" x="58" y="601" width="297" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="I'm feeling anxious.">
@@ -497,7 +529,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pr2-Ik-1SY">
-                                <rect key="frame" x="59" y="267" width="297" height="36"/>
+                                <rect key="frame" x="58" y="421" width="297" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="I'm feeling depressed.">
@@ -505,7 +537,7 @@
                                 </buttonConfiguration>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bpx-9f-unp">
-                                <rect key="frame" x="59" y="626" width="297" height="36"/>
+                                <rect key="frame" x="58" y="772" width="297" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="I'm feeling frustrated/ agngry.">
@@ -515,25 +547,32 @@
                                     <segue destination="JUR-Ae-7mg" kind="show" id="tMP-H6-fPB"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="a step by step emotional walkthrough" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fRh-Hf-Ft2">
-                                <rect key="frame" x="65" y="121" width="285" height="29"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" systemColor="systemGray2Color"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oxa-UJ-s7W">
-                                <rect key="frame" x="59" y="685" width="297" height="82"/>
+                                <rect key="frame" x="58" y="131" width="297" height="109"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Mindfullness exercises">
-                                    <color key="baseForegroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <buttonConfiguration key="configuration" style="filled">
                                     <color key="baseBackgroundColor" red="1" green="0.92934239667534002" blue="0.64303909501337553" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="eU2-cs-xIb" kind="show" id="d5Y-E3-Df0"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SWC-1W-jfq">
+                                <rect key="frame" x="60" y="244" width="297" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="mindfullness exercises">
+                                    <color key="baseForegroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SHADES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4du-ln-HYt">
+                                <rect key="frame" x="60" y="56" width="227" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="39"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="eRK-9Y-brH"/>
                         <color key="backgroundColor" red="0.98823523520000001" green="0.98823523520000001" blue="0.94509804249999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -564,14 +603,6 @@
                                     <segue destination="Cii-Ng-vMI" kind="show" id="m00-hd-Qpg"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Step 1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sTr-hO-qBw">
-                                <rect key="frame" x="0.0" y="59" width="414" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="36"/>
-                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="highlightedColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
-                                <color key="shadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PO3-ux-ryk">
                                 <rect key="frame" x="20" y="20" width="75" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -584,6 +615,22 @@
                                     <segue destination="BQB-j5-6I9" kind="show" id="9pN-8j-vVe"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="when you are ready to move on from each step, press the button below. You can always come back to these steps if needed. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yWv-Bg-cL8">
+                                <rect key="frame" x="63" y="566" width="313" height="190"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="22"/>
+                                <color key="textColor" systemColor="systemGray5Color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oyl-4V-nYe">
+                                <rect key="frame" x="63" y="33" width="313" height="559"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Welcome to your Shades walk-through. Before i go any further you should also know that anxiety is treatable. It’s possible to alleviate anxiety on your own, with tried and true coping mechanisms. These skills can help you navigate anxiety not just in the moment, but also over time with practice (although they should not replace proper treatment from a mental health professional. 
+</string>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="22"/>
+                                <color key="textColor" systemColor="systemGray5Color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="kci-4e-LsE"/>
                         <color key="backgroundColor" red="0.13747841120000001" green="0.32110774520000002" blue="0.51743298770000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -634,6 +681,22 @@
                                 <color key="highlightedColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
                                 <color key="shadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Zw-GU-jC3">
+                                <rect key="frame" x="63" y="212" width="288" height="559"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">what it does: Deep breathing is a slow and deliberate way of breathing that fills your lungs fully with oxygenated air and helps slow the heartbeat and stabilize blood pressure. Also known as diaphragmatic breathing, abdominal breathing and belly breathing, this technique distracts you from stressors and uses the diaphragm’s full range of motion, allowing your body to relax.
+</string>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="22"/>
+                                <color key="textColor" systemColor="systemGray5Color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="have a deep breath five times " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WPf-YJ-VlR">
+                                <rect key="frame" x="63" y="125" width="288" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="28"/>
+                                <color key="textColor" systemColor="systemGray5Color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="LEe-SR-gg3"/>
                         <color key="backgroundColor" red="0.13766333459999999" green="0.3201128244" blue="0.51669412849999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -643,7 +706,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T9K-Lb-0BK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1083" y="-1283"/>
+            <point key="canvasLocation" x="1082.608695652174" y="-1283.0357142857142"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="eIF-VT-JLW">
@@ -676,7 +739,7 @@
                                 <rect key="frame" x="63" y="753" width="288" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="I'm ready to move to the next step.">
+                                <buttonConfiguration key="configuration" style="filled" title="move to body exercise">
                                     <color key="baseForegroundColor" systemColor="systemGray5Color"/>
                                     <color key="baseBackgroundColor" red="0.13747841120000001" green="0.32110774520000002" blue="0.51743298770000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
@@ -684,6 +747,15 @@
                                     <segue destination="Eza-hp-C2c" kind="show" id="9XD-hZ-8MR"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rMm-av-JgP">
+                                <rect key="frame" x="63" y="141" width="288" height="590"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Congratulations on making it to Step 2! Wanting to move forward in this process is already a huge accomplishment and you should be proud of yourself. If any time you are not ready to move forward, you can go back to Step 1 and repeat 
+</string>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="22"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="dGc-8A-HNn"/>
                         <color key="backgroundColor" red="0.19588437680000001" green="0.4426630735" blue="0.6468192935" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -733,6 +805,19 @@
                                 <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Io4-IN-2Sg">
+                                <rect key="frame" x="63" y="91" width="288" height="688"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Start on your hands and knees, with your hands stacked under your shoulders and knees under your hips.
+Spread your hands wide and press your index finger and thumb into your mat.
+Lift your tailbone and press your butt up and back, drawing your hips toward the ceiling. Straighten your legs as best as you can and press your heels gently toward the floor.
+Your head should be between your arms, facing your knees, and your backs should be flat.
+Hold for 5–10 breaths.
+</string>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="22"/>
+                                <color key="textColor" systemColor="systemGray6Color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="OFZ-Rt-Asm"/>
                         <color key="backgroundColor" red="0.19576549530000001" green="0.44279798869999998" blue="0.64746677880000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -741,7 +826,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9uq-bW-PhO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2422" y="-1283"/>
+            <point key="canvasLocation" x="2421.739130434783" y="-1283.0357142857142"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="IWx-Qi-f2N">
@@ -782,6 +867,15 @@
                                     <segue destination="Sc9-Kr-0B7" kind="show" id="WAH-JM-MEv"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gaz-vV-6wv">
+                                <rect key="frame" x="63" y="153" width="288" height="590"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Welcome to your Shades walk-through. Before i go any further you should also know that anxiety is treatable. It’s possible to alleviate anxiety on your own, with tried and true coping mechanisms. These skills can help you navigate anxiety not just in the moment, but also over time with practice (although they should not replace proper treatment from a mental health professional. 
+</string>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="22"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="XUl-Nb-uNu"/>
                         <color key="backgroundColor" red="0.25423336029999999" green="0.57988494629999998" blue="0.79580909010000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -828,6 +922,15 @@
                                 <rect key="frame" x="0.0" y="59" width="414" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="36"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5KG-WF-uR9">
+                                <rect key="frame" x="63" y="153" width="288" height="590"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Welcome to your Shades walk-through. Before i go any further you should also know that anxiety is treatable. It’s possible to alleviate anxiety on your own, with tried and true coping mechanisms. These skills can help you navigate anxiety not just in the moment, but also over time with practice (although they should not replace proper treatment from a mental health professional. 
+</string>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="22"/>
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -880,6 +983,15 @@
                                     <segue destination="qVB-pJ-V54" kind="show" id="TMF-9Z-J3X"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6y2-Di-pFL">
+                                <rect key="frame" x="63" y="153" width="288" height="590"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Welcome to your Shades walk-through. Before i go any further you should also know that anxiety is treatable. It’s possible to alleviate anxiety on your own, with tried and true coping mechanisms. These skills can help you navigate anxiety not just in the moment, but also over time with practice (although they should not replace proper treatment from a mental health professional. 
+</string>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="22"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Nck-0P-6Jc"/>
                         <color key="backgroundColor" red="0.42251050470000001" green="0.74080413580000004" blue="0.88997542860000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -926,6 +1038,15 @@
                                 <rect key="frame" x="0.0" y="59" width="414" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="36"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tNE-9k-cS1">
+                                <rect key="frame" x="63" y="155" width="288" height="590"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Welcome to your Shades walk-through. Before i go any further you should also know that anxiety is treatable. It’s possible to alleviate anxiety on your own, with tried and true coping mechanisms. These skills can help you navigate anxiety not just in the moment, but also over time with practice (although they should not replace proper treatment from a mental health professional. 
+</string>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="22"/>
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -978,6 +1099,15 @@
                                     <segue destination="22m-AF-1rE" kind="show" id="Hyy-Nk-526"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="22w-Ml-zwS">
+                                <rect key="frame" x="63" y="153" width="288" height="590"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Welcome to your Shades walk-through. Before i go any further you should also know that anxiety is treatable. It’s possible to alleviate anxiety on your own, with tried and true coping mechanisms. These skills can help you navigate anxiety not just in the moment, but also over time with practice (although they should not replace proper treatment from a mental health professional. 
+</string>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="22"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="R8K-wX-TNE"/>
                         <color key="backgroundColor" red="0.72108584639999995" green="0.88608747720000003" blue="0.95674115420000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1024,6 +1154,15 @@
                                 <rect key="frame" x="0.0" y="59" width="414" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="36"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ite-ih-u82">
+                                <rect key="frame" x="63" y="135" width="288" height="590"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Welcome to your Shades walk-through. Before i go any further you should also know that anxiety is treatable. It’s possible to alleviate anxiety on your own, with tried and true coping mechanisms. These skills can help you navigate anxiety not just in the moment, but also over time with practice (although they should not replace proper treatment from a mental health professional. 
+</string>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="22"/>
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -1127,6 +1266,15 @@
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wLA-rD-3iN">
+                                <rect key="frame" x="63" y="172" width="288" height="590"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Welcome to your Shades walk-through. Before i go any further you should also know that anxiety is treatable. It’s possible to alleviate anxiety on your own, with tried and true coping mechanisms. These skills can help you navigate anxiety not just in the moment, but also over time with practice (although they should not replace proper treatment from a mental health professional. 
+</string>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="22"/>
+                                <color key="textColor" systemColor="systemGray5Color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="La9-Tv-gVl"/>
                         <color key="backgroundColor" red="0.56200647349999999" green="0.34049093720000001" blue="0.69383597370000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1174,6 +1322,15 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="36"/>
                                 <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eTV-aJ-j6z">
+                                <rect key="frame" x="63" y="167" width="288" height="590"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Welcome to your Shades walk-through. Before i go any further you should also know that anxiety is treatable. It’s possible to alleviate anxiety on your own, with tried and true coping mechanisms. These skills can help you navigate anxiety not just in the moment, but also over time with practice (although they should not replace proper treatment from a mental health professional. 
+</string>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="22"/>
+                                <color key="textColor" systemColor="systemGray6Color"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -1225,6 +1382,15 @@
                                     <segue destination="HIG-Fw-bzF" kind="show" id="shK-M1-Hho"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Qs-E9-Cit">
+                                <rect key="frame" x="63" y="170" width="288" height="590"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Welcome to your Shades walk-through. Before i go any further you should also know that anxiety is treatable. It’s possible to alleviate anxiety on your own, with tried and true coping mechanisms. These skills can help you navigate anxiety not just in the moment, but also over time with practice (although they should not replace proper treatment from a mental health professional. 
+</string>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="22"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6g9-ui-rHd"/>
                         <color key="backgroundColor" red="0.69527560470000005" green="0.50143182279999998" blue="0.8232489824" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1271,6 +1437,15 @@
                                 <rect key="frame" x="0.0" y="59" width="414" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="36"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wdd-lT-AoA">
+                                <rect key="frame" x="63" y="170" width="288" height="590"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Welcome to your Shades walk-through. Before i go any further you should also know that anxiety is treatable. It’s possible to alleviate anxiety on your own, with tried and true coping mechanisms. These skills can help you navigate anxiety not just in the moment, but also over time with practice (although they should not replace proper treatment from a mental health professional. 
+</string>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="22"/>
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -1323,6 +1498,15 @@
                                     <segue destination="6LD-ZT-xOI" kind="show" id="7b0-E5-HeO"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9HI-xB-SfF">
+                                <rect key="frame" x="63" y="158" width="288" height="590"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Welcome to your Shades walk-through. Before i go any further you should also know that anxiety is treatable. It’s possible to alleviate anxiety on your own, with tried and true coping mechanisms. These skills can help you navigate anxiety not just in the moment, but also over time with practice (although they should not replace proper treatment from a mental health professional. 
+</string>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="22"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="RBf-vK-7w4"/>
                         <color key="backgroundColor" red="0.81640183929999999" green="0.70171922450000002" blue="0.88609307999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1369,6 +1553,15 @@
                                 <rect key="frame" x="0.0" y="59" width="414" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="36"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PTd-kK-0EJ">
+                                <rect key="frame" x="63" y="155" width="288" height="590"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Welcome to your Shades walk-through. Before i go any further you should also know that anxiety is treatable. It’s possible to alleviate anxiety on your own, with tried and true coping mechanisms. These skills can help you navigate anxiety not just in the moment, but also over time with practice (although they should not replace proper treatment from a mental health professional. 
+</string>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="22"/>
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -1421,6 +1614,15 @@
                                     <segue destination="J2Q-pj-nXH" kind="show" id="JNO-pZ-vwx"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GgF-sI-Ve1">
+                                <rect key="frame" x="63" y="176" width="288" height="590"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Welcome to your Shades walk-through. Before i go any further you should also know that anxiety is treatable. It’s possible to alleviate anxiety on your own, with tried and true coping mechanisms. These skills can help you navigate anxiety not just in the moment, but also over time with practice (although they should not replace proper treatment from a mental health professional. 
+</string>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="22"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="dYD-Wp-2zJ"/>
                         <color key="backgroundColor" red="0.88673299549999995" green="0.81163662670000003" blue="0.9214556813" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1467,6 +1669,15 @@
                                 <rect key="frame" x="0.0" y="59" width="414" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="36"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mDE-md-LKJ">
+                                <rect key="frame" x="63" y="166" width="288" height="590"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Welcome to your Shades walk-through. Before i go any further you should also know that anxiety is treatable. It’s possible to alleviate anxiety on your own, with tried and true coping mechanisms. These skills can help you navigate anxiety not just in the moment, but also over time with practice (although they should not replace proper treatment from a mental health professional. 
+</string>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="22"/>
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -1519,6 +1730,15 @@
                                     <segue destination="raw-Qg-8vo" kind="show" id="7rb-ZC-Wp9"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0vE-Ms-BT8">
+                                <rect key="frame" x="63" y="153" width="288" height="590"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Welcome to your Shades walk-through. Before i go any further you should also know that anxiety is treatable. It’s possible to alleviate anxiety on your own, with tried and true coping mechanisms. These skills can help you navigate anxiety not just in the moment, but also over time with practice (although they should not replace proper treatment from a mental health professional. 
+</string>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="22"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="tEl-44-3zh"/>
                         <color key="backgroundColor" red="0.91399008039999996" green="0.87443161010000003" blue="0.94110423330000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1568,6 +1788,15 @@
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eS1-ar-CKv">
+                                <rect key="frame" x="63" y="153" width="288" height="590"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Welcome to your Shades walk-through. Before i go any further you should also know that anxiety is treatable. It’s possible to alleviate anxiety on your own, with tried and true coping mechanisms. These skills can help you navigate anxiety not just in the moment, but also over time with practice (although they should not replace proper treatment from a mental health professional. 
+</string>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="22"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Xel-r4-awH"/>
                         <color key="backgroundColor" red="0.91199260950000005" green="0.87379425759999996" blue="0.94055640699999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1602,7 +1831,7 @@
                                 <rect key="frame" x="63" y="751" width="288" height="57"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="I'm ready to move to the next step">
+                                <buttonConfiguration key="configuration" style="filled" title="move on">
                                     <color key="baseForegroundColor" systemColor="systemGray5Color"/>
                                     <color key="baseBackgroundColor" red="0.20550596709999999" green="0.46676582100000003" blue="0.29042714829999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
@@ -1610,6 +1839,23 @@
                                     <segue destination="DGm-YZ-WCo" kind="show" id="hmf-Po-r2Q"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Step 1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OK6-ej-EnD">
+                                <rect key="frame" x="-3" y="57" width="414" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="36"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="highlightedColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
+                                <color key="shadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oGt-Qa-gFf">
+                                <rect key="frame" x="63" y="153" width="288" height="590"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Welcome to your Shades walk-through. Before i go any further you should also know that anxiety is treatable. It’s possible to alleviate anxiety on your own, with tried and true coping mechanisms. These skills can help you navigate anxiety not just in the moment, but also over time with practice (although they should not replace proper treatment from a mental health professional. 
+</string>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="22"/>
+                                <color key="textColor" systemColor="systemGray5Color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="QQ1-3p-zXh"/>
                         <color key="backgroundColor" red="0.18767473300000001" green="0.4255201381" blue="0.26904775139999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1618,7 +1864,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wM9-ij-qMQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="416" y="-1942"/>
+            <point key="canvasLocation" x="415.94202898550731" y="-1942.6339285714284"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="iNB-9y-CPa">
@@ -1652,6 +1898,23 @@
                                     <segue destination="aP1-gl-QGC" kind="show" id="nTq-g4-GjK"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Step 1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Or-ys-ViC">
+                                <rect key="frame" x="0.0" y="59" width="414" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="36"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="highlightedColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
+                                <color key="shadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pWl-cQ-R4A">
+                                <rect key="frame" x="63" y="153" width="288" height="590"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Welcome to your Shades walk-through. Before i go any further you should also know that anxiety is treatable. It’s possible to alleviate anxiety on your own, with tried and true coping mechanisms. These skills can help you navigate anxiety not just in the moment, but also over time with practice (although they should not replace proper treatment from a mental health professional. 
+</string>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="22"/>
+                                <color key="textColor" systemColor="systemGray5Color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="XwA-je-7Cw"/>
                         <color key="backgroundColor" red="0.17613552239999999" green="0.40295069369999997" blue="0.25555487710000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1699,6 +1962,15 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="36"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DEU-rI-mKC">
+                                <rect key="frame" x="63" y="153" width="288" height="590"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Welcome to your Shades walk-through. Before i go any further you should also know that anxiety is treatable. It’s possible to alleviate anxiety on your own, with tried and true coping mechanisms. These skills can help you navigate anxiety not just in the moment, but also over time with practice (although they should not replace proper treatment from a mental health professional. 
+</string>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="22"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -1750,6 +2022,15 @@
                                     <segue destination="5rf-3Z-k9T" kind="show" id="wxY-KJ-Z5H"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i6e-Z2-9wa">
+                                <rect key="frame" x="63" y="153" width="288" height="590"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Welcome to your Shades walk-through. Before i go any further you should also know that anxiety is treatable. It’s possible to alleviate anxiety on your own, with tried and true coping mechanisms. These skills can help you navigate anxiety not just in the moment, but also over time with practice (although they should not replace proper treatment from a mental health professional. 
+</string>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="22"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="JzJ-mi-1Wg"/>
                         <color key="backgroundColor" red="0.39734971520000001" green="0.65120905640000004" blue="0.48626470570000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1796,6 +2077,15 @@
                                 <rect key="frame" x="0.0" y="59" width="414" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="36"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xDe-GS-zSR">
+                                <rect key="frame" x="63" y="165" width="288" height="590"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Welcome to your Shades walk-through. Before i go any further you should also know that anxiety is treatable. It’s possible to alleviate anxiety on your own, with tried and true coping mechanisms. These skills can help you navigate anxiety not just in the moment, but also over time with practice (although they should not replace proper treatment from a mental health professional. 
+</string>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="22"/>
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -1848,6 +2138,15 @@
                                     <segue destination="5Sw-AB-ZPw" kind="show" id="0AP-6n-xPW"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pV4-ud-MtI">
+                                <rect key="frame" x="63" y="153" width="288" height="590"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Welcome to your Shades walk-through. Before i go any further you should also know that anxiety is treatable. It’s possible to alleviate anxiety on your own, with tried and true coping mechanisms. These skills can help you navigate anxiety not just in the moment, but also over time with practice (although they should not replace proper treatment from a mental health professional. 
+</string>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="22"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="oZQ-GU-fs3"/>
                         <color key="backgroundColor" red="0.53360593320000005" green="0.75424569850000001" blue="0.60309255120000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1894,6 +2193,15 @@
                                 <rect key="frame" x="0.0" y="59" width="414" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="36"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XHm-nq-itk">
+                                <rect key="frame" x="63" y="153" width="288" height="590"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Welcome to your Shades walk-through. Before i go any further you should also know that anxiety is treatable. It’s possible to alleviate anxiety on your own, with tried and true coping mechanisms. These skills can help you navigate anxiety not just in the moment, but also over time with practice (although they should not replace proper treatment from a mental health professional. 
+</string>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="22"/>
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -1946,6 +2254,15 @@
                                     <segue destination="QV9-0S-VBe" kind="show" id="m2R-8R-ykc"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K55-HK-c5f">
+                                <rect key="frame" x="63" y="153" width="288" height="590"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Welcome to your Shades walk-through. Before i go any further you should also know that anxiety is treatable. It’s possible to alleviate anxiety on your own, with tried and true coping mechanisms. These skills can help you navigate anxiety not just in the moment, but also over time with practice (although they should not replace proper treatment from a mental health professional. 
+</string>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="22"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="E73-JR-x4O"/>
                         <color key="backgroundColor" red="0.75944465400000005" green="0.91205686330000002" blue="0.74447280169999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1995,6 +2312,15 @@
                                     <segue destination="9Zi-Oc-bXX" kind="show" id="fNT-zh-TR7"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AzJ-VT-94l">
+                                <rect key="frame" x="63" y="153" width="288" height="590"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Welcome to your Shades walk-through. Before i go any further you should also know that anxiety is treatable. It’s possible to alleviate anxiety on your own, with tried and true coping mechanisms. These skills can help you navigate anxiety not just in the moment, but also over time with practice (although they should not replace proper treatment from a mental health professional. 
+</string>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="22"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ASi-x1-rNL"/>
                         <color key="backgroundColor" red="0.79154187440000001" green="0.90593081710000001" blue="0.82752728460000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -2045,6 +2371,15 @@
                                     <segue destination="U4b-fT-NbA" kind="show" id="JLf-Zq-XU2"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hdY-pJ-koO">
+                                <rect key="frame" x="63" y="153" width="288" height="590"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Welcome to your Shades walk-through. Before i go any further you should also know that anxiety is treatable. It’s possible to alleviate anxiety on your own, with tried and true coping mechanisms. These skills can help you navigate anxiety not just in the moment, but also over time with practice (although they should not replace proper treatment from a mental health professional. 
+</string>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="22"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="SHJ-ek-GvZ"/>
                         <color key="backgroundColor" red="0.79275554420000005" green="0.90699487919999999" blue="0.82683187719999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -2062,30 +2397,32 @@
         <segue reference="ye8-fI-OPB"/>
         <segue reference="ddE-JS-HtT"/>
         <segue reference="PAG-LZ-gm2"/>
-        <segue reference="iov-gS-rUD"/>
+        <segue reference="is8-x0-YIn"/>
         <segue reference="nTq-g4-GjK"/>
         <segue reference="hmf-Po-r2Q"/>
-        <segue reference="Lsd-Xt-pSe"/>
+        <segue reference="uBH-g2-uhw"/>
         <segue reference="lot-sc-xC7"/>
-        <segue reference="JNO-pZ-vwx"/>
+        <segue reference="bZy-3G-uvY"/>
         <segue reference="UVG-UQ-VRN"/>
-        <segue reference="3YJ-bE-OnR"/>
-        <segue reference="6S9-A1-QfJ"/>
+        <segue reference="7b0-E5-HeO"/>
+        <segue reference="Lfq-ca-agF"/>
         <segue reference="rxF-Nn-gby"/>
-        <segue reference="dUj-y3-l6Q"/>
-        <segue reference="L3V-GJ-31E"/>
-        <segue reference="bft-m5-qrI"/>
+        <segue reference="4VK-5h-5a9"/>
+        <segue reference="5Fe-vk-C78"/>
+        <segue reference="j5e-0R-Fff"/>
         <segue reference="gLb-kF-mOb"/>
         <segue reference="6qx-Jm-boJ"/>
         <segue reference="MWe-bT-B1X"/>
         <segue reference="wbx-cN-UKs"/>
-        <segue reference="S5Z-g6-qn5"/>
-        <segue reference="AE0-S6-yC3"/>
-        <segue reference="RKx-zh-y9L"/>
+        <segue reference="WAH-JM-MEv"/>
+        <segue reference="TXb-Dq-C9n"/>
+        <segue reference="9XD-hZ-8MR"/>
         <segue reference="48i-dV-J7M"/>
         <segue reference="Pm1-Uh-20Q"/>
-        <segue reference="GjX-8S-3W0"/>
-        <segue reference="GfL-r4-4QW"/>
+        <segue reference="KfE-RY-aTg"/>
+        <segue reference="9pN-8j-vVe"/>
+        <segue reference="oRt-g1-usO"/>
+        <segue reference="0VL-8a-uVH"/>
         <segue reference="AC5-LR-reK"/>
         <segue reference="RTb-NZ-x2k"/>
         <segue reference="soQ-BS-GTA"/>
@@ -2093,14 +2430,14 @@
     </inferredMetricsTieBreakers>
     <resources>
         <image name="background" width="564" height="1002"/>
-        <systemColor name="systemGray2Color">
-            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
         <systemColor name="systemGray4Color">
             <color red="0.81960784313725488" green="0.81960784313725488" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemGray5Color">
             <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGray6Color">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="tertiarySystemGroupedBackgroundColor">
             <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
